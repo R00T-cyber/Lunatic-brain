@@ -1,0 +1,108 @@
+ body {
+    margin: 0;
+/*    background-color:#e5e5e5;*/
+    background-image: url("images/pinho-GCAnKZM21_c-unsplash (1).jpg");
+   
+    font-weight: 350;
+    line-height: 1.5;
+
+}
+.Location {
+  border-radius : 10px;
+   background-color: grey;
+   font-family: Helvetica;
+}
+
+.container {
+    width: 98%;
+    margin: 0 auto;
+}
+
+header {
+  background: #161a1d;
+  justify-content: center;
+}
+
+header::after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+nav {
+  float: right;
+  display:inline;
+  justify-content: center;
+  
+}
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+ 
+}
+
+nav li {
+  display: inline-block;
+  margin-left: 70px;
+  padding-top: 23px;
+
+  position: relative;
+}
+
+nav a {
+  color: #ffffff;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 14px;
+}
+
+nav a:hover {
+  color: #000;
+}
+
+nav a::before {
+  content: '';
+  display: block;
+  height: 5px;
+  background-color: #444;
+
+  position: absolute;
+  top: 0;
+  width: 0%;
+
+}
+li #logo{ 
+  float: right;
+  padding-left: 30px;
+  color:#ffffff;
+  float: left;
+}
+
+
+
+
+.pdPic img {
+  width: 60%;
+  height: auto;
+  height: 60%;
+}
+
+li{
+   list-style-type: none;
+}
+
+.ulProducts{
+  justify-content: center;
+  padding-right: 30px;
+
+}
+
+
+form {
+    display: block;
+    margin-top: 0em;
+   padding-top: 100px;
+  }

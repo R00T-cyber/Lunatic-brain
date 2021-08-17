@@ -1,0 +1,183 @@
+
+
+
+body {
+    margin: 0;
+   background-image: url("images/pinho-GCAnKZM21_c-unsplash (1).jpg");
+   font-weight: 350;
+   line-height: 1.5;
+
+}
+.emptyDiv {
+  border-radius : 4px;
+  background-color: #e5e5e5;
+}
+ 
+
+.product_wrapper {
+	float:left;
+	padding: 10px;
+	text-align: center;
+	}
+.product_wrapper:hover {
+	box-shadow: 0 0 0 2px #e5e5e5;
+	cursor:pointer;
+	}
+.product_wrapper .name {
+	font-weight:bold;
+	}
+.product_wrapper .buy {
+	text-transform: uppercase;
+    background: black;
+    border: 1px solid black;
+    cursor: pointer;
+    color: #fff;
+    padding: 8px 40px;
+    margin-top: 10px;
+}
+.product_wrapper .buy:hover {
+	background: #f17e0a;
+    border-color: #f17e0a;
+}
+.message_box .box{
+	margin: 10px 0px;
+    border: 1px solid #2b772e;
+    text-align: center;
+    font-weight: bold;
+    color: #2b772e;
+	}
+.table td {
+	border-bottom: #F0F0F0 1px solid;
+	padding: 10px;
+	}
+.cart_div {
+	float:right;
+	font-weight:bold;
+	position:relative;
+	}
+.cart_div a {
+	color:#000;
+	}	
+.cart_div span {
+	font-size: 12px;
+    line-height: 14px;
+    background: #F68B1E;
+    padding: 2px;
+    border: 2px solid #fff;
+    border-radius: 50%;
+    position: absolute;
+    top: -1px;
+    left: 13px;
+    color: #fff;
+    width: 14px;
+    height: 13px;
+    text-align: center;
+	}
+.cart .remove {
+    background: none;
+    border: none;
+    color: #0067ab;
+    cursor: pointer;
+    padding: 0px;
+	}
+.cart .remove:hover {
+	text-decoration:underline;
+	}
+
+
+
+.container {
+    width: 98%;
+    margin: 0 auto;
+}
+
+header {
+/*  background: #161a1d;
+  justify-content: center;*/
+}
+
+header::after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+
+h1 {
+    color: #ffffff;
+    float: left;
+    font-size: 23px;
+    margin-top: 20px;
+    padding-right: 90px;
+}
+
+nav {
+  float: right;
+  display:inline;
+  justify-content: center;
+  
+}
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+ 
+}
+
+nav li {
+  display: inline-block;
+  margin-left: 70px;
+  padding-top: 23px;
+
+  position: relative;
+}
+
+nav a {
+  color: #ffffff;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 14px;
+}
+
+nav a:hover {
+  color: #000;
+}
+
+nav a::before {
+  content: '';
+  display: block;
+  height: 5px;
+  background-color: #444;
+
+  position: absolute;
+  top: 0;
+  width: 0%;
+
+}
+li #logo{ 
+  float: right;
+  padding-left: 30px;
+  color:#ffffff;
+  float: left;
+}
+
+
+
+
+.pdPic img {
+  width: 60%;
+  height: auto;
+  height: 60%;
+}
+
+li{
+   list-style-type: none;
+}
+
+.ulProducts{
+  justify-content: center;
+  padding-right: 30px;
+
+}

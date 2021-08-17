@@ -1,0 +1,222 @@
+body {
+
+  background-image: url("images/pinho-GCAnKZM21_c-unsplash (1).jpg");
+  background-size: 100%;
+}
+
+img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+
+.inner {
+  position: absolute;
+}
+
+.inner-container {
+  background-color: grey;
+  border-radius: 10px;
+  width: 400px;
+  height: 400px;
+  position: absolute;
+  top: calc(50vh - 250px);
+  left: calc(50vw - 200px);
+  overflow: hidden;
+  color:rgb(173,181,189,0.6);
+  align-content: center;
+}
+.inner-container p{
+
+  justify-content: center;
+  color:blue;
+}
+
+
+
+.box {
+  width: 400px;
+  height: 400px;
+  position: absolute;
+  height: 107%;
+  width: 100%;
+  font-family: Helvetica;
+
+  padding: 30px 0px;
+  top: 0px;
+  left: 0px;
+
+}
+
+  .box h1 {
+    text-align: center;
+    margin: 30px ;
+    font-size: 30px;
+    color:black;
+  }
+
+  .box input {
+    display: block;
+    width: 300px;
+    height: 35px;
+    border-radius: 25px;
+    margin: 20px auto;
+    padding: 10px;
+    background: #b7b7a4;
+    color: black;
+    border: 2px;
+  }
+
+    .box input:focus, .box input:active, .box button:focus, .box button:active {
+      outline: none;
+    }
+
+  .box button {
+
+    border-style: none;
+    border-color: inherit;
+    border-width: 0;
+    border-radius: 25px;
+    background: #011627;
+    color: #fff;
+    padding: 10px;
+    font-size: 14px;
+    width: 160px;
+    margin: 20px auto;
+    display: block;
+    cursor: pointer;
+}
+  }
+
+    .box button:active {
+      background: #27ae60;
+    }
+
+  .box p {
+    font-size: 14px;
+    text-align: center;
+  }
+
+    .box p span {
+      cursor: pointer;
+      
+    }
+
+a {
+  text-decoration: none !important;
+  color: #00509d;
+}
+a:hover{
+  color: #e71d36;
+}
+.box p{
+  color:black !important;
+}
+
+a #Signpb{
+  padding-right: 10px !important;
+}
+
+ body {
+  margin: 0;
+  font-weight: 350;
+  line-height: 1.5;
+
+}
+
+.container {
+    width: 98%;
+    margin: 0 auto;
+}
+
+
+header {
+  background: #161a1d;
+  justify-content: center;
+}
+
+header::after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+
+h1 {
+    color: #ffffff;
+    float: left;
+    font-size: 23px;
+    margin-top: 20px;
+    padding-right: 90px;
+}
+
+nav {
+  float: right;
+  display:inline;
+  justify-content: center;
+  
+}
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+ 
+}
+
+nav li {
+  display: inline-block;
+  margin-left: 70px;
+  padding-top: 23px;
+
+  position: relative;
+}
+
+nav a {
+  color: #ffffff;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 14px;
+}
+
+nav a:hover {
+  color: #000;
+}
+
+nav a::before {
+  content: '';
+  display: block;
+  height: 5px;
+  background-color: #444;
+
+  position: absolute;
+  top: 0;
+  width: 0%;
+
+}
+li #logo{ 
+  float: right;
+  padding-left: 30px;
+  color:#ffffff;
+  float: left;
+}
+
+
+
+
+.pdPic img {
+  width: 60%;
+  height: auto;
+  height: 60%;
+}
+
+li{
+   list-style-type: none;
+}
+
+.ulProducts{
+  justify-content: center;
+  padding-right: 30px;
+
+}
